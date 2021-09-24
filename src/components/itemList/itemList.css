@@ -1,0 +1,11 @@
+.wrapper {
+  margin-top: 0;
+  background-color: rgb(126, 148, 190);
+}
+.item-list .list-group-item {
+  cursor: pointer;
+  background-color: rgb(126, 148, 190);
+}
+.list-group-item:hover {
+  background-color: rgb(179, 190, 211);
+}

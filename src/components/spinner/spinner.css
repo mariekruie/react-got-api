@@ -1,0 +1,93 @@
+@keyframes ldio-dg0tevi1amw {
+  0% {
+    transform: translate(7px, 41px) scale(0);
+  }
+  25% {
+    transform: translate(7px, 41px) scale(0);
+  }
+  50% {
+    transform: translate(7px, 41px) scale(1);
+  }
+  75% {
+    transform: translate(41px, 41px) scale(1);
+  }
+  100% {
+    transform: translate(75px, 41px) scale(1);
+  }
+}
+@keyframes ldio-dg0tevi1amw-r {
+  0% {
+    transform: translate(75px, 41px) scale(1);
+  }
+  100% {
+    transform: translate(75px, 41px) scale(0);
+  }
+}
+@keyframes ldio-dg0tevi1amw-c {
+  0% {
+    background: #182731;
+  }
+  25% {
+    background: #a7d4ec;
+  }
+  50% {
+    background: #182731;
+  }
+  75% {
+    background: #a7d4ec;
+  }
+  100% {
+    background: #182731;
+  }
+}
+.ldio-dg0tevi1amw div {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transform: translate(41px, 41px) scale(1);
+  background: #182731;
+  animation: ldio-dg0tevi1amw 3.4482758620689653s infinite
+    cubic-bezier(0, 0.5, 0.5, 1);
+}
+.ldio-dg0tevi1amw div:nth-child(1) {
+  background: #a7d4ec;
+  transform: translate(75px, 41px) scale(1);
+  animation: ldio-dg0tevi1amw-r 0.8620689655172413s infinite
+      cubic-bezier(0, 0.5, 0.5, 1),
+    ldio-dg0tevi1amw-c 3.4482758620689653s infinite step-start;
+}
+.ldio-dg0tevi1amw div:nth-child(2) {
+  animation-delay: -0.8620689655172413s;
+  background: #182731;
+}
+.ldio-dg0tevi1amw div:nth-child(3) {
+  animation-delay: -1.7241379310344827s;
+  background: #a7d4ec;
+}
+.ldio-dg0tevi1amw div:nth-child(4) {
+  animation-delay: -2.5862068965517238s;
+  background: #182731;
+}
+.ldio-dg0tevi1amw div:nth-child(5) {
+  animation-delay: -3.4482758620689653s;
+  background: #a7d4ec;
+}
+.loadingio-spinner-ellipsis-9ws636e2l6t {
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-dg0tevi1amw {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.21);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-dg0tevi1amw div {
+  box-sizing: content-box;
+}
